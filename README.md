@@ -1,52 +1,69 @@
 # OpenDataCam – An open source tool to quantify the world
 
-OpenDataCam is an open source tool that helps to quantify the world.
-With computer vision OpenDataCam understands and quantifies moving objects.
-The simple setup allows everybody to count moving objects from cameras and videos.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-opendatacam--an-open-source-tool-to-quantify-the-world" class="anchor" aria-hidden="true" tabindex="-1" href="#opendatacam--an-open-source-tool-to-quantify-the-world"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenDataCam – 量化世界的开源工具</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenDataCam 是一款有助于量化世界的开源工具。</font><font style="vertical-align: inherit;">借助计算机视觉，OpenDataCam 可以理解并量化移动物体。</font><font style="vertical-align: inherit;">通过简单的设置，每个人都可以通过摄像机和视频来计算移动物体的数量。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人们将 OpenDataCam 用于许多不同的</font></font><a href="https://opendata.cam/use-cases" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">它在交通研究（模态分割、转弯计数等）中特别受欢迎，但 OpenDataCam 可以立即检测 50 多个常见对象，并且可以用于更多用途。</font><font style="vertical-align: inherit;">如果它没有检测到您正在寻找的内容，您可以随时训练自己的模型。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenDataCam 使用机器学习来检测视频和摄像机源中的对象。</font><font style="vertical-align: inherit;">然后，当对象在场景中移动时，它会跟随它们。</font><font style="vertical-align: inherit;">通过易于使用的 UI 或 API 定义计数器，每次有对象穿过计数器时，OpenDataCam 都会进行计数。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-demo-videos" class="anchor" aria-hidden="true" tabindex="-1" href="#demo-videos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示视频</font></font></h2>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 </font></font><a href="https://vimeo.com/432747455" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UI 演练（2 分钟，OpenDataCam 3.0）</font></font></a></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 </font></font><a href="https://vimeo.com/346340651" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UI 演练（4 分钟，OpenDataCam 2.0）</font></font></a></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉</font></font><a href="https://youtu.be/YfRvUeSLi0M?t=1000" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">物联网欢乐时光#13：OpenDataCam 3.0</font></font></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://vimeo.com/432747455" rel="nofollow"><img src="https://camo.githubusercontent.com/d76d48de03095c064770b34f8ff61bc05b2595f3c5ca78b300b8d007ac31c67f/68747470733a2f2f692e76696d656f63646e2e636f6d2f766964656f2f3931343737313739345f3634302e6a7067" alt="开放数据摄像头3.0" data-canonical-src="https://i.vimeocdn.com/video/914771794_640.jpg" style="max-width: 100%;"></a></td>
+<td><a href="https://vimeo.com/346340651" rel="nofollow"><img src="https://camo.githubusercontent.com/eb108c37c5f953920b5c8f5d11f4fc8631b6ebd970dde56f52093d1c2aa94c3c/68747470733a2f2f692e76696d656f63646e2e636f6d2f766964656f2f3830353437373731385f3634302e6a7067" alt="演示 OpenDataCam" data-canonical-src="https://i.vimeocdn.com/video/805477718_640.jpg" style="max-width: 100%;"></a></td>
+<td><a href="https://youtu.be/YfRvUeSLi0M?t=1000" rel="nofollow"><img src="https://camo.githubusercontent.com/501d560b095a1880576f75a0edf049db12fe0b203104b10640cf15c0aabe5bb4/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f596652765565534c69304d2f687164656661756c742e6a7067" alt="物联网" data-canonical-src="https://img.youtube.com/vi/YfRvUeSLi0M/hqdefault.jpg" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table>
+<h2 tabindex="-1" dir="auto"><a id="user-content-features" class="anchor" aria-hidden="true" tabindex="-1" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenDataCam</font></font><a href="https://opendata.cam/features" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能齐全</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，亮点是</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多个对象类</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">细粒度计数器逻辑</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轨迹分析</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实时或预先录制的视频源</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在现场小型设备或云端数据中心上运行</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您拥有数据</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">易于使用的</font></font><a href="https://opendata.cam/docs/api/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content--get-started-quick-setup" class="anchor" aria-hidden="true" tabindex="-1" href="#-get-started-quick-setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎬 开始使用，快速设置</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始使用 OpenDataCam 的最快方法是使用现有的 Docker 映像。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-pre-requesits" class="anchor" aria-hidden="true" tabindex="-1" href="#pre-requesits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预先要求</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要安装 Docker 和 Docker-Compose。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想在 NVIDIA GPU 上运行 OpenDataCam，您还需要
+</font></font><ul dir="auto">
+<li><a href="https://developer.nvidia.com/cuda-downloads" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nvidia CUDA 11 和 cuDNN 8</font></font></a></li>
+<li><a href="https://github.com/NVIDIA/nvidia-docker"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Nvidia 容器工具包</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还需要安装</font></font><code>nvidia-container-runtime</code></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要在 NVIDIA Jetson 设备上运行 OpenDataCam ，</font><font style="vertical-align: inherit;">您需要</font></font><a href="https://developer.nvidia.com/embedded/jetpack-sdk-512" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jetpack 5.x。</font></font></a><font style="vertical-align: inherit;"></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h3>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> Download install script</span>
+wget -N https://raw.githubusercontent.com/opendatacam/opendatacam/v3.0.2/docker/install-opendatacam.sh
 
-People use OpenDataCam for many different [use cases](https://opendata.cam/use-cases).
-It is especially popular for traffic studies (modal-split, turn-count, etc.) but OpenDataCam detects 50+ common objects out of the box and can be used for many more things.
-And in case it does not detect what you are looking for, you can always train your own model.
+<span class="pl-c"><span class="pl-c">#</span> Give exec permission</span>
+chmod 777 install-opendatacam.sh
 
-OpenDataCam uses machine learning to detect objects in videos and camera feeds.
-It then follows the objects as they move accross the scene.
-Define counters via the easy to use UI or API, and every time an object crosses the counter, OpenDataCam takes count.
+<span class="pl-c"><span class="pl-c">#</span> Note: You will be asked for sudo password when installing OpenDataCam</span>
 
-## Demo Videos
+<span class="pl-c"><span class="pl-c">#</span> Install command for Jetson Nano</span>
+./install-opendatacam.sh --platform nano
 
-| 👉 [UI Walkthrough (2 min, OpenDataCam 3.0)](https://vimeo.com/432747455) | 👉 [UI Walkthrough (4 min, OpenDataCam 2.0)](https://vimeo.com/346340651) | 👉 [IoT Happy Hour #13:  OpenDataCam 3.0](https://youtu.be/YfRvUeSLi0M?t=1000 ) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [![OpenDataCam 3.0](https://i.vimeocdn.com/video/914771794_640.jpg)](https://vimeo.com/432747455) | [![Demo OpenDataCam](https://i.vimeocdn.com/video/805477718_640.jpg)](https://vimeo.com/346340651) | [![IoT](https://img.youtube.com/vi/YfRvUeSLi0M/hqdefault.jpg)](https://youtu.be/YfRvUeSLi0M?t=1000) |
+<span class="pl-c"><span class="pl-c">#</span> Install command for Jetson Xavier / Xavier NX</span>
+./install-opendatacam.sh --platform xavier
 
-## Features
-
-OpenDataCam comes [feature packed](https://opendata.cam/features), the highlight are
-
-- Multiple object classes
-- Fine grained counter logic
-- Trajectory analysis
-- Real-time or pre-recorded video sources
-- Run on small devices in the field or data centers in the cloud
-- You own the data
-- Easy to use [API](https://opendata.cam/docs/api/)
-
-## 🎬 Get Started, quick setup
-
-The quickest way to get started with OpenDataCam is to use the existing Docker Images.
-
-### Pre-Requesits
-
-- You will need Docker and Docker-Compose installed. 
-- If you want to run OpenDataCam on a NVIDIA GPU you will additonally need
-  - [Nvidia CUDA 11 and cuDNN 8](https://developer.nvidia.com/cuda-downloads)
-  - [Nvidia Container toolkit installed](https://github.com/NVIDIA/nvidia-docker)
-  - You also need to install `nvidia-container-runtime`
-- To run OpenDataCam on a NVIDIA Jetson device you will need [Jetpack 5.x](https://developer.nvidia.com/embedded/jetpack-sdk-512).
-
-### Installation
-
-```bash
-# Download install script
+<span class="pl-c"><span class="pl-c">#</span> Install command for a Laptop, Desktop or Server with NVIDIA GPU</span>
+./install-opendatacam.sh --platform desktop</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Download install script
 wget -N https://raw.githubusercontent.com/opendatacam/opendatacam/v3.0.2/docker/install-opendatacam.sh
 
 # Give exec permission
@@ -61,61 +78,50 @@ chmod 777 install-opendatacam.sh
 ./install-opendatacam.sh --platform xavier
 
 # Install command for a Laptop, Desktop or Server with NVIDIA GPU
-./install-opendatacam.sh --platform desktop
-```
-
-This command will download and start a docker container on the machine.
-After it finishes the docker container starts a webserver on port 8080 and run a demo video.
-
-_Note:_ The docker container is started in auto-restart mode, so if you reboot your machine it will automaticaly start opendatacam on startup.
-To stop it run `docker-compose down` in the same folder as the install script.
-
-### Use OpenDataCam
-
-Open your browser at `http://[IP_OF_JETSON]:8080``.
-(If you are running with the Jetson connected to a screen try: [http://localhost:8080](http://localhost:8080))
-
-You should see a video of a busy intersection where you can immediately start counting.
-
-### Next Steps
-
-Now you can…
-
-- Drag'n'Drop a video file into the browser window to have OpenDataCam analzye this file
-- Change the [video input](https://opendata.cam/docs/configuration/#video-input) to run from a USB-Cam or other cameras
-- Use custom [neural network weigts](https://opendata.cam/docs/configuration/#use-custom-neural-network-weights)
-
-and much more. See [Configuration](https://opendata.cam/docs/configuration/) for a full list of configuration options.
-
-## 🔌 API Documentation
-
-In order to solve use cases that aren't taken care by our opendatacam base app, you might be able to build on top of our API instead of forking the project.
-
-[https://opendatacam.github.io/opendatacam/apidoc/](https://opendatacam.github.io/opendatacam/apidoc/)
-
-### 🗃 Data export documentation
-
-- [Counter data](https://opendatacam.github.io/opendatacam/apidoc/#api-Recording-Counter_data)
-- [Tracker data](https://opendatacam.github.io/opendatacam/apidoc/#api-Recording-Tracker_data)
-
-## 🛠 Development notes
-
-See [Development notes](https://opendata.cam/docs/development/)
-
-## 💰️ Funded by the community
-
-- `@rantgithub` funded work to add Polygon counters and to improve the counting lines
-
-## 📫️ Contact
-
-Please ask any Questions you have around OpenDataCam in the [GitHub Discussions](https://github.com/opendatacam/opendatacam/discussions).
-Bugs, Features and anythings else regarding the development of OpenDataCam is tracked in [GitHub Issues](https://github.com/opendatacam/opendatacam/issues).
-
-For business inquiries or professional support requests please contact [Valentin Sawadski](https://opendata.cam/#people_involved) or visit [OpenDataCam for Professionals](https://opendata.cam/professionals/).
-
-## 💌 Acknowledgments
-
-- Original darknet @pjreddie  : [https://pjreddie.com/darknet/](https://pjreddie.com/darknet/)
-- Darknet fork + YOLOv4 by @alexeyab : [https://github.com/alexeyab/darknet](https://github.com/alexeyab/darknet)
-- IOU / V-IOU Tracker by @bochinski : [https://github.com/bochinski/iou-tracker/](https://github.com/bochinski/iou-tracker/)
-- Next.js by @zeit : [https://github.com/zeit/next.js](https://github.com/zeit/next.js)
+./install-opendatacam.sh --platform desktop" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此命令将在计算机上下载并启动 docker 容器。</font><font style="vertical-align: inherit;">完成后，docker 容器在端口 8080 上启动一个网络服务器并运行演示视频。</font></font></p>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> docker 容器以自动重启模式启动，因此如果您重新启动计算机，它将在启动时自动启动 opendatacam。</font><font style="vertical-align: inherit;">要停止它，请</font></font><code>docker-compose down</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在与安装脚本相同的文件夹中运行。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-use-opendatacam" class="anchor" aria-hidden="true" tabindex="-1" href="#use-opendatacam"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 OpenDataCam</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开浏览器“http://[IP_OF_JETSON]:8080”。</font><font style="vertical-align: inherit;">（如果您在运行时将 Jetson 连接到屏幕，请尝试：</font></font><a href="http://localhost:8080" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://localhost:8080</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您应该会看到一个繁忙十字路口的视频，您可以立即开始计数。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-next-steps" class="anchor" aria-hidden="true" tabindex="-1" href="#next-steps"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下一步</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在你可以…</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将视频文件拖放到浏览器窗口中，让 OpenDataCam 分析该文件</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改</font></font><a href="https://opendata.cam/docs/configuration/#video-input" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频输入</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以从 USB 摄像头或其他摄像头运行</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用自定义</font></font><a href="https://opendata.cam/docs/configuration/#use-custom-neural-network-weights" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">神经网络权重</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及更多。</font><font style="vertical-align: inherit;">有关配置选项的完整列表，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://opendata.cam/docs/configuration/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content--api-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#-api-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔌 API 文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了解决我们的 opendatacam 基础应用程序未处理的用例，您可以在我们的 API 之上进行构建，而不是分叉项目。</font></font></p>
+<p dir="auto"><a href="https://opendatacam.github.io/opendatacam/apidoc/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://opendatacam.github.io/opendatacam/apidoc/</font></font></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content--data-export-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#-data-export-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🗃 数据导出文档</font></font></h3>
+<ul dir="auto">
+<li><a href="https://opendatacam.github.io/opendatacam/apidoc/#api-Recording-Counter_data" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计数器数据</font></font></a></li>
+<li><a href="https://opendatacam.github.io/opendatacam/apidoc/#api-Recording-Tracker_data" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">追踪器数据</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content--development-notes" class="anchor" aria-hidden="true" tabindex="-1" href="#-development-notes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛠 开发笔记</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见</font></font><a href="https://opendata.cam/docs/development/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发笔记</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-️-funded-by-the-community" class="anchor" aria-hidden="true" tabindex="-1" href="#️-funded-by-the-community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💰️ 由社区资助</font></font></h2>
+<ul dir="auto">
+<li><code>@rantgithub</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资助添加多边形计数器和改进计数线的工作</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-️-contact" class="anchor" aria-hidden="true" tabindex="-1" href="#️-contact"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📫️联系方式</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/opendatacam/opendatacam/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请在GitHub 讨论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中询问有关 OpenDataCam 的任何问题</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">有关 OpenDataCam 开发的错误、功能和其他任何内容都可以在</font></font><a href="https://github.com/opendatacam/opendatacam/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub Issues</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中进行跟踪。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如需业务咨询或专业支持请求，请联系</font></font><a href="https://opendata.cam/#people_involved" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Valentin Sawadski</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或访问</font></font><a href="https://opendata.cam/professionals/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenDataCam for Professionals</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content--acknowledgments" class="anchor" aria-hidden="true" tabindex="-1" href="#-acknowledgments"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💌致谢</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">原始暗网@pjreddie：</font></font><a href="https://pjreddie.com/darknet/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://pjreddie.com/darknet/</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Darknet 分叉 + YOLOv4，作者：@alexeyab：</font></font><a href="https://github.com/alexeyab/darknet"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/alexeyab/darknet</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IOU / V-IOU 跟踪器，作者：@bochinski：</font></font><a href="https://github.com/bochinski/iou-tracker/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/bochinski/iou-tracker/</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Next.js 作者：@zeit： https: </font></font><a href="https://github.com/zeit/next.js"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/zeit/next.js</font></font></a></li>
+</ul>
+</article></div>
